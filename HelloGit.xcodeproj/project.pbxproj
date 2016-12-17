@@ -12,6 +12,8 @@
 		EAF4753E1E058B7B0088B780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF4753C1E058B7B0088B780 /* Main.storyboard */; };
 		EAF475401E058B7B0088B780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF4753F1E058B7B0088B780 /* Assets.xcassets */; };
 		EAF475431E058B7B0088B780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF475411E058B7B0088B780 /* LaunchScreen.storyboard */; };
+		EAF4754B1E058EC40088B780 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF4754A1E058EC40088B780 /* MapViewController.swift */; };
+		EAF4754D1E058ECE0088B780 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF4754C1E058ECE0088B780 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EAF4753F1E058B7B0088B780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAF475421E058B7B0088B780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAF475441E058B7B0088B780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF4754A1E058EC40088B780 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EAF4754C1E058ECE0088B780 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				EAF475381E058B7B0088B780 /* AppDelegate.swift */,
 				EAF4753A1E058B7B0088B780 /* ViewController.swift */,
+				EAF4754A1E058EC40088B780 /* MapViewController.swift */,
 				EAF4753C1E058B7B0088B780 /* Main.storyboard */,
 				EAF4753F1E058B7B0088B780 /* Assets.xcassets */,
 				EAF475411E058B7B0088B780 /* LaunchScreen.storyboard */,
 				EAF475441E058B7B0088B780 /* Info.plist */,
+				EAF4754C1E058ECE0088B780 /* SettingViewController.swift */,
 			);
 			path = HelloGit;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF4753B1E058B7B0088B780 /* ViewController.swift in Sources */,
+				EAF4754B1E058EC40088B780 /* MapViewController.swift in Sources */,
 				EAF475391E058B7B0088B780 /* AppDelegate.swift in Sources */,
+				EAF4754D1E058ECE0088B780 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				EAF475491E058B7B0088B780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
